@@ -211,6 +211,9 @@ ol li {
 	transition: all .2s linear;
 	display: inline-block
 }
+.border{
+border-color: white;
+}
 
 .btn-center{
 	left: 26%;
