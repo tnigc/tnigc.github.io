@@ -2264,7 +2264,7 @@ a.back-to-top:focus {
 
 .modal-open .modal {
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 
 .modal-dialog {
@@ -2280,8 +2280,8 @@ a.back-to-top:focus {
   transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
-  -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
+  -webkit-transform: translate(0, -25%);
+          transform: translate(0, -25%);
 }
 
 
@@ -2316,6 +2316,7 @@ a.back-to-top:focus {
   -ms-flex-direction: column;
       flex-direction: column; 
   width: 100%;
+  height: 100%;
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
