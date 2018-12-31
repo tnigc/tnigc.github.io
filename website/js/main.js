@@ -16,6 +16,7 @@
 				'<div class="time-entry minutes"><span>%M</span> Minutes</div> ' +
 				'<div class="time-entry seconds"><span>%S</span> Seconds</div> '));
 		});
+
 		$('.mobile-menu').slicknav({
 			prependTo: '.navbar-header',
 			parentTag: 'liner',
@@ -50,5 +51,11 @@
 			}, 600);
 			return false;
 		});
+		$(".page-scrool").on("click",function(event) {
+    	console.log("tese");
+    			if ($(".slicknav_btn").css('display')!='none')
+        	    $(".slicknav_btn").click();
+		});
+
 	});
 }(jQuery));
