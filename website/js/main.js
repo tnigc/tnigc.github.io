@@ -63,6 +63,7 @@
 		});
 		
 		var top = $(window).scrollTop();
-		$(window).scrollto(top);
+		$(window).scrollto(top + 2);
+		console.log(top,$(window).scrollTop());
 	});
 }(jQuery));
