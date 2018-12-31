@@ -1822,6 +1822,10 @@ a.back-to-top:focus {
 	background: #d34836
 }
 
+.footer-area .footer-social li .instagram:hover {
+	background: #fb3958
+}
+
 .footer-area .footer-text p {
 	font-size: 14px;
 	margin-top: 20px;
