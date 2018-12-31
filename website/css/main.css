@@ -2288,6 +2288,10 @@ a.back-to-top:focus {
           transform: translate(0, -25%);
 }
 
+.benefits {
+	border: 1px solid #cccccc; 
+	box-shadow: 0 6px 22px rgba(0, 0, 0, .1);
+}
 
 @media screen and (prefers-reduced-motion: reduce) {
   .modal.fade .modal-dialog {
