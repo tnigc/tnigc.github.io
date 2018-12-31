@@ -61,6 +61,8 @@
     			if ($(".slicknav_btn").css('display')!='none')
         	    $(".slicknav_btn").click();
 		});
-
+		
+		var top = $(window).scrollTop();
+		$(window).scrollto(top);
 	});
 }(jQuery));
