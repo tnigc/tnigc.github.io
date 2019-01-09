@@ -1892,7 +1892,6 @@ img.mfp-img {
 		color: #9AA5B5;
 		font-family: "Roboto", sans-serif; }
 		.pricing__term:before {
-			content: "/";
 			display: inline-block;
 			margin: 0 7px; }
 	.pricing__text {
