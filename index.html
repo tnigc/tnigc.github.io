@@ -84,7 +84,7 @@
 
             <div class="nav__btn-holder nav--align-right">
               <a href="https://forms.gle/7QUoEf87yCEzUU5QA" class="btn nav__btn">
-                <span class="nav__btn-text">Register Now!</span>
+                <span id="navbtn" class="nav__btn-text">Register Now!</span>
               </a>
             </div>
 
@@ -647,8 +647,47 @@ continued support from EDII. </li>
       <section class="section-wrap section-wrap--pb-large bg-gradient" id="Community" style="background-image: url(img/partners/map.png);">
         <div class="container">
           <div class="title-row title-row--boxed text-center">
-            <h2 class="section-title" style="font-size:50px;">Communities & Partners</h2>
-            <p class="subtitle">If you are interested as community volunteer, please <a href="https://tnigc.typeform.com/to/T2oeRw" style="color:#fff; text-decoration: underline;">register here</a></p>
+            <h2 class="section-title" style="font-size:50px;">Ecosystem Partners</h2>
+            <!-- <p class="subtitle">If you are interested as community volunteer, please <a href="https://tnigc.typeform.com/to/T2oeRw" style="color:#fff; text-decoration: underline;">register here</a></p> -->
+          </div>
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-10">
+              <div class="row pb-48">
+                <div class="col-md col-sm-6">
+                  <img src="img/partners/4.png" alt="">
+                </div>
+                <div class="col-md col-sm-6">
+                  <img src="img/partners/5.png" alt="">
+                </div>
+                <div class="col-md col-sm-6">
+                  <img src="img/partners/6.png" alt="">
+                </div>
+                <!-- <div class="col-md col-sm-6">
+                    <img src="img/partners/2.png" alt="">
+                </div> -->
+                <div class="col-md col-sm-6">
+                  <img src="img/partners/3.png" alt="">
+                </div>
+                <div class="col-md col-sm-6">
+                  <img src="img/partners/1.png" alt="">
+                </div>
+                <div class="col-md col-sm-6">
+                  <img src="img/partners/7.png" alt="">
+                </div>
+                <div class="col-md col-sm-6">
+                  <img src="img/partners/8.png" alt="">
+                </div>
+                <div class="col-md col-sm-6">
+                  <img src="img/partners/9.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="title-row title-row--boxed text-center">
+            <h2 class="section-title" style="font-size:50px;">Incubation Partners</h2>
+            <!-- <p class="subtitle">If you are interested as community volunteer, please <a href="https://tnigc.typeform.com/to/T2oeRw" style="color:#fff; text-decoration: underline;">register here</a></p> -->
           </div>
           <div class="row justify-content-center text-center">
             <div class="col-lg-10">
@@ -744,7 +783,7 @@ continued support from EDII. </li>
                 <h4 class="faq__title">Where do we sign up for the event?</h4>
                 <p class="faq__text " style="text-align: justify;">  It’s already begun! What are you waiting for?
                   You can <a href="https://forms.gle/7QUoEf87yCEzUU5QA" target="_blank" style="color:blue;text-decoration: underline">sign up</a> below by <strong>March 11, 2020 latest by 11.59.59</strong>. No registration fee is required.
-                  Hurry up! 343 seats to go, Clock is ticking.</p>
+                  </p>
               </div>
 
               <div class="faq">
@@ -832,7 +871,17 @@ continued support from EDII. </li>
 
     </div> <!-- end content wrapper -->
   </main> <!-- end main wrapper -->
-
+  <script type="text/javascript">
+  today=new Date();
+  var cmas=new Date(2020, 2, 11,11,59,59);
+  if (today.getMonth()==11 && today.getDate()>25)
+  {
+  cmas.setFullYear(cmas.getFullYear()+1);
+  }
+  var one_day=1000*60*60*24;
+  var daysto="<br>"+Math.ceil((cmas.getTime()-today.getTime())/(one_day))+" days left";
+  document.getElementById("navbtn").innerHTML += daysto;
+  </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132868614-1"></script>
   <script>
