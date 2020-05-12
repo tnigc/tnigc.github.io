@@ -24,6 +24,108 @@
   <link rel="apple-touch-icon" sizes="72x72" href="img/logo.ico">
   <link rel="apple-touch-icon" sizes="114x114" href="img/logo.ico">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <style type="text/css">
+      /* @group Blink */
+      .blink {
+        -webkit-animation: blink .75s linear infinite;
+        -moz-animation: blink .75s linear infinite;
+        -ms-animation: blink .75s linear infinite;
+        -o-animation: blink .75s linear infinite;
+        animation: blink .75s linear infinite;
+        font-size: .8em;
+      }
+
+      @-webkit-keyframes blink {
+        0% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+        50.01% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @-moz-keyframes blink {
+        0% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+        50.01% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @-ms-keyframes blink {
+        0% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+        50.01% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @-o-keyframes blink {
+        0% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+        50.01% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes blink {
+        0% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+        50.01% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 0;
+        }
+      }
+
+    </style>
   <script>
   $(document).ready(function(){
       $("#notice").modal('show');
@@ -47,13 +149,17 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Notice !</h5>
+        <h5 class="modal-title">Event Update !&nbsp;</h5> <button class="btn btn-secondary blink">new</button>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        <p>On account of the ongoing COVID-19 crisis, the event has been indefinitely postponed until further notice.</p>
+      <div class="modal-body" style="text-align: center;">
+        <p>TNIGC 2020 is now live! Due to the ongoing COVID-19 crisis, the event has made completely virtual. We are now
+          accepting applications.</p>
+          <a href="https://forms.gle/7QUoEf87yCEzUU5QA" class="btn nav__btn">
+            <span id="navbtn" class="nav__btn-text">Register Now!</span>
+          </a>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -150,7 +256,7 @@
             <div class="col-lg-5 offset-lg-1">
               <div class="hero__text-holder">
                 <h1 class="hero__title hero__title--boxed">Tamil Nadu Innovation Grand Challenge</h1>
-                <h6>March 20-22, Chennai</h6>
+                <h6>June 1-7, Virtual</h6>
                 <h6><i>The Platform to Elevate your Startup Game</i></h6>
               </div>
             </div>
@@ -160,7 +266,7 @@
             <div class="col-lg-10">
               <!-- Optin Form -->
               <div class="optin">
-                <h3 class="optin__title">TNIGC 2019-20 is an initiative by Entrepreneurship Development & Innovation Institute - Tamil Nadu (EDII - TN), to support ideas of budding entrepreneurs in the state with<br>&nbsp</h3>
+                <h3 class="optin__title">TNIGC 2019-20 is a virtual initiative by Entrepreneurship Development & Innovation Institute - Tamil Nadu (EDII - TN), to support ideas of budding entrepreneurs in the state with<br>&nbsp</h3>
                 <!-- <ul>
                   <li>Grant money
 </li>
@@ -265,8 +371,9 @@
             <div class="col-lg-6">
               <h2 class="promo-section__title promo-section__title--boxed" style="font-size:60px;">About</h2>
               <p class="promo-section__text lead " style="text-align: justify;">
-                Do you think out of the box? Do you dream about creating a better tomorrow through innovation? Are you itching to startup? The Tamil Nadu Innovation Grand Challenge (TNIGC) is for you.<br><br>
-  The Tamil Nadu Innovation Grand Challenge (TNIGC), an initiative by Entrepreneurship Development and Innovation Institute (EDII), aims to promote innovation and startup culture by providing financial grants to budding entrepreneurs. The event comprises a bootcamp - to educate entrepreneurs - and a pitchfest session - to decide the winners of the grant. Five winning teams from the program will be awarded with seed money of ₹5 lakh each to support their venture.
+
+                Do you think out of the box? Do you dream about creating a better tomorrow through innovation? Are you itching to startup? Do you have any product or solution to take on COVID-19 crisis ? The Tamil Nadu Innovation Grand Challenge (TNIGC) is for you.<br><br>
+  The Tamil Nadu Innovation Grand Challenge (TNIGC), a virtual initiative by Entrepreneurship Development and Innovation Institute (EDII), aims to promote innovation and startup culture by providing financial grants to budding entrepreneurs. The event comprises a webinar series and bootcamp - to educate entrepreneurs - and a pitchfest session - to decide the winners of the grant. Five winning teams from the program will be awarded with seed money of ₹5 lakh each to support their venture.
 
               </p>
               <!-- <h2 class="section-title text-center">Target Sectors</h2>
@@ -432,6 +539,9 @@
                    <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Logistics</span></li>
                    <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Education</span></li>
                    <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Retail</span></li>
+                   <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
+                       class="benefits__item-title">&nbsp;&nbsp;&nbsp;COVID-19 &nbsp; <button
+                         class="btn btn-secondary blink">new</button></span></li>
                  </ul></h3>
                </td>
              </table>
@@ -452,6 +562,9 @@
                   <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Accesibility</span></li>
                   <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Environment</span></li>
                   <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Sustainability</span></li>
+                  <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
+                      class="benefits__item-title">&nbsp;&nbsp;&nbsp;Post COVID-19 &nbsp; <button
+                        class="btn btn-secondary blink">new</button></span></li>
                 </ul></h3>
               </td>
              </table>
@@ -497,8 +610,16 @@
                         <span class="benefits__item-title"> Registered Startups </span>
                       </li>
                       <li class="benefits__item">
+                        <i class="ui-check benefits__item-icon"></i>
+                        <span class="benefits__item-title"> Startups registered in Tamilnadu or willing to register in Tamilnadu </span>
+                      </li>
+                      <li class="benefits__item">
                         <i class="ui-close benefits__item-icon" style="color:#FA6262;"></i>
                         <span class="benefits__item-title"> Students are not permitted to participate in TNIGC. They can apply for grant under <a href="https://tnsi.in/"> Tamil Nadu Student Innovators programme</a> </span>
+                      </li>
+                      <li class="benefits__item">
+                        <i class="ui-close benefits__item-icon" style="color:#FA6262;"></i>
+                        <span class="benefits__item-title"> Startups registered in other states are not allowed to register for this grant </span>
                       </li>
                     </ul>
                     </div>
@@ -549,19 +670,69 @@
           </div>
           <div class="row">
 
-            <!-- <div class="col-lg-4">
+            <div class="col-lg-3">
               <div class="pricing box-shadow hover-up hover-line">
-                <div class="pricing__price-box">
-                  <h3 class="pricing__title">Step 1</h3>
-                  <span class="pricing__price">Sprint</span>
-                  <span class="pricing__term"><i class="fas fa-calendar-day"></i> February 15-17, 2019</span>
+                <div class="pricing__price-box" style="display: inline;">
+                  <h4 class="pricing__title">Step 1&nbsp;<button class="btn btn-secondary blink">new</button></h3>
+                  <span class="pricing__price" style="font-size: 2.1em;">Registration open</span>
+                  <span class="pricing__term" style="font-size: 1.3em;"><i class="fas fa-calendar-day"></i> Till May 22, 2020</span>
                 </div>
                 <p class="pricing__text">
-                <i class="fas fa-map-marker-alt"></i> Chennai
+                <i class="fas fa-map-marker-alt"></i> Online
                 </p>
-                <a href="#sprint" class="pricing__button btn btn--lg btn--color" data-wow-delay=".8s"data-toggle="modal" data-target="#sprint"><span>Know more</span></a>
+                <a href="https://forms.gle/7QUoEf87yCEzUU5QA" class="pricing__button btn btn--lg btn--color"
+                   ><span>Register</span></a>
               </div>
-            </div> -->
+            </div>
+
+            <div class="col-lg-3">
+              <div class="pricing box-shadow hover-up hover-line">
+                <div class="pricing__price-box" style="display: inline;">
+                  <h4 class="pricing__title">Step 2&nbsp;<button class="btn btn-secondary blink">new</button></h3>
+                  <span class="pricing__price" style="font-size: 2.1em;">Online Webinar</span>
+                  <span class="pricing__term" style="font-size: 1.3em;"><i class="fas fa-calendar-day"></i> June 1-4,2020</span>
+                </div>
+                <p class="pricing__text">
+                <i class="fas fa-map-marker-alt"></i> Online
+                </p>
+                <a href="#webinar" class="pricing__button btn btn--lg btn--color" data-wow-delay=".8s"data-toggle="modal" data-target="#webinar"><span>Know more</span></a>
+              </div>
+            </div>
+
+<!-- Bootcamp modal -->
+            <div class="modal fade" id="webinar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Online Webinar</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <!-- <h6>
+                          The secret of getting ahead is getting started. Become the super team
+                          which can achieve the results they seek.</h6> -->
+                        <ol>
+                          <li><i class="ui-check benefits__item-icon"></i> Shortlisted teams from applications will be
+                            chosen to attend a 4-day webinar series where the teams will be exposed to talks from
+                            experts on generating business insights, creating breakthrough value propositions and
+                            creating a solid go to market strategy.
+ </li><br>
+                          <li><i class="ui-check benefits__item-icon"></i> Speakers for the webinars will be shared
+                            later.</li><br>
+                        </ol>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
 
 
             <!-- Sprint modal -->
@@ -607,7 +778,7 @@
                                                     <!-- <li><i class="ui-check benefits__item-icon"></i> Teams should have testimonials from at least two individuals from startup community/ Certificate of merit from any two recognised startup events.</li> -->
                                                     <li><i class="ui-check benefits__item-icon"></i> If an incorporated startup wishes to participate, the date of registration should not be more than a year as of 1/12/2018.</li>
                                                     <li><i class="ui-check benefits__item-icon"></i> Depending upon the predetermined criteria teams are selected after the pre-screening process.</li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> To continue forward the team has to make a payment of ₹2000/- through our online portal.</li>
+                                                    <li><i class="ui-check benefits__item-icon"></i> To continue forward the team has to make a payment of ₹500/- through our online portal.</li>
                                                     <li><i class="ui-check benefits__item-icon"></i> The seat of the teams in sprint will be confirmed on first paid first served basis.</li>
                                                     <li><i class="ui-check benefits__item-icon"></i> Teams those tops the list in hackathon will be attending Bootcamp.</li>
                                                 </ol>
@@ -624,19 +795,15 @@
                 </div>
             </div>
 
-            <div class="col-lg-2">
-
-            </div>
-
-            <div class="col-lg-4">
+            <div class="col-lg-3">
               <div class="pricing box-shadow  hover-up hover-line ">
-                <div class="pricing__price-box">
-                  <h3 class="pricing__title">Step 1</h3>
-                  <span class="pricing__price">Bootcamp</span>
-                  <span class="pricing__term"><i class="fas fa-calendar-day"></i> March 20-21, 2020</span>
+                <div class="pricing__price-box" style="display: inline;">
+                  <h4 class="pricing__title">Step 3&nbsp;<button class="btn btn-secondary blink">new</button></h3>
+                    <span class="pricing__price" style="font-size: 2.1em;">Bootcamp</span>
+                    <span class="pricing__term" style="font-size: 1.3em;"><i class="fas fa-calendar-day"></i> June 5-6,2020</span>
                 </div>
                 <p class="pricing__text">
-                <i class="fas fa-map-marker-alt"></i> Chennai
+                <i class="fas fa-map-marker-alt"></i> Online
                 </p>
                 <a href="#bootcamp" class="pricing__button btn btn--lg btn--color" data-wow-delay=".8s"data-toggle="modal" data-target="#bootcamp" ><span>Know more</span></a>
               </div>
@@ -660,15 +827,22 @@
 The secret of getting ahead is getting started. Become the super team
 which can achieve the results they seek.</h6>
                                             <ol>
-                                            	<li><i class="ui-check benefits__item-icon"></i> The top teams from applications will be chosen to attend the 2-day boot camp where she/he will
+                                            	<li><i class="ui-check benefits__item-icon"></i> The 2-day Boot Camp
+                                            	  promises to be a constructive session of 1-1 sessions by the teams with
+                                            	  mentors. Teams will have the chance to crystallize their ideas and bring
+                                            	  out the best in themselves. </li><br>
+                                            	<li><i class="ui-check benefits__item-icon"></i> On the final day of the
+                                            	  Boot Camp, teams will create and submit their pitch decks with feedback
+                                            	  from mentors from relevant sectors which teams are from.</li><br>
+                                            	<!-- <li><i class="ui-check benefits__item-icon"></i> The top teams from applications will be chosen to attend the 2-day boot camp where she/he will
 be exposed to talks from experts on generating business insights, creating breakthrough value
-proposition and creating a solid go to market strategy.</li><br>
+proposition and creating a solid go to market strategy.</li><br> -->
                                                 <!-- <li><i class="ui-check benefits__item-icon"></i> Teams that outperform and top the list in the hackathon will be attending a bootcamp session at Chennai.</li> -->
-                                             <li><i class="ui-check benefits__item-icon"></i> The Bootcamp promises to be a constructive session of dynamic approaches. With the help of
+                                             <!-- <li><i class="ui-check benefits__item-icon"></i> The Bootcamp promises to be a constructive session of dynamic approaches. With the help of
 mentor expertise, teams will have the chance to crystallize their ideas and bring out the best in
-themselves.</li>
-                                            <br>  <li><i class="ui-check benefits__item-icon"></i> On the second day of the Bootcamp, teams will create and submit their pitch decks with
-feedback from mentors from relevant sectors which teams are from.</li><br>
+themselves.</li> -->
+                                            <!-- <br>  <li><i class="ui-check benefits__item-icon"></i> On the second day of the Bootcamp, teams will create and submit their pitch decks with
+feedback from mentors from relevant sectors which teams are from.</li><br> -->
                                             </ol>
                                             <!-- <Br>Psst!<br>
 
@@ -681,15 +855,15 @@ feedback from mentors from relevant sectors which teams are from.</li><br>
             </div>
 
 
-            <div class="col-lg-4">
+            <div class="col-lg-3">
               <div class="pricing box-shadow hover-up hover-line">
-                <div class="pricing__price-box">
-                    <h3 class="pricing__title">Step 2</h3>
-                  <span class="pricing__price">Pitchfest</span>
-                    <span class="pricing__term"><i class="fas fa-calendar-day"></i> March 22, 2020</span>
+                <div class="pricing__price-box" style="display: inline;">
+                  <h4 class="pricing__title">Step 4&nbsp;<button class="btn btn-secondary blink">new</button></h3>
+                    <span class="pricing__price" style="font-size: 2.1em;">Pitchfest</span>
+                    <span class="pricing__term" style="font-size: 1.3em;"><i class="fas fa-calendar-day"></i> June 7,2020</span>
                 </div>
                 <p class="pricing__text">
-                  <i class="fas fa-map-marker-alt"></i> Chennai
+                  <i class="fas fa-map-marker-alt"></i> Online
                 </p>
                 <a href="#pitchfest" class="pricing__button btn btn--lg btn--color" data-wow-delay=".8s"data-toggle="modal" data-target="#pitchfest"><span>Know more</span></a>
               </div>
@@ -826,6 +1000,12 @@ continued support from EDII. </li>
                 <div class="col-md col-sm-6">
                   <img src="img/partners/16.png" alt="">
                 </div>
+                <div class="col-md col-sm-6">
+                  <img src="img/partners/17.png" alt="">
+                </div>
+                <div class="col-md col-sm-6">
+                  <img src="img/partners/18.png" alt="">
+                </div>
               </div>
             </div>
             </div>
@@ -862,7 +1042,11 @@ continued support from EDII. </li>
               <div class="faq">
                 <h4 class="faq__title">What is TNIGC?</h4>
                 <p class="faq__text " style="text-align: justify;">
-                    The Tamil Nadu Innovation Grand Challenge (TNIGC), an initiative by Entrepreneurship Development and Innovation Institute (EDII), aims to promote innovation and startup culture by providing financial grants to budding entrepreneurs. The event comprises a bootcamp - to educate entrepreneurs - and a pitchfest session - to decide the winners of the grant. Five winning teams from the program will be awarded with seed money of ₹5 lakh each to support their venture.
+                    The Tamil Nadu Innovation Grand Challenge (TNIGC), a virtual initiative by Entrepreneurship
+                    Development and Innovation Institute (EDII), aims to promote innovation and startup culture by
+                    providing financial grants to budding entrepreneurs. On account of ongoing COVID-19 crisis the 2020
+                    edition will be virtual. The event comprises an online webinar series, a bootcamp and a pitchfest. Five winning teams from the program will be awarded
+                    with seed money of ₹5 lakh each to support their venture.
                 </p>
               </div>
 
@@ -877,16 +1061,16 @@ continued support from EDII. </li>
               <div class="faq">
                 <h4 class="faq__title">How can I apply?</h4>
                 <p class="faq__text " style="text-align: justify;">
-                    After filling this <a href="https://forms.gle/7QUoEf87yCEzUU5QA" target="_blank" style="color:blue;text-decoration: underline">registration form</a>, you will get a payment link after a pre-screening process. The process will be completed after you pay ₹2000 through the link. Consider the confirmation mail as the entry ticket.
+                    After filling this <a href="https://forms.gle/7QUoEf87yCEzUU5QA" target="_blank" style="color:blue;text-decoration: underline">registration form</a>, you will get a payment link after a pre-screening process. The process will be completed after you pay ₹500 through the link. Consider the confirmation mail as the entry ticket.
                 </p>
               </div>
             </div>
 
             <div class="col-md-6">
               <div class="faq">
-                <h4 class="faq__title">What should I bring?</h4>
+                <h4 class="faq__title">What are the requirements?</h4>
                 <p class="faq__text " style="text-align: justify;">
-                  To start with, your laptops and any special kits that could be imperative to your project. You’re also welcome to bring additional technology to support your working prototype if necessary. If you have specific requirements, please reach out to us prior to your presentation. We want to make it perfect event for you. Don’t worry if you forget something. We’re always here to help.
+                 A good internet connection and a teleconferencing software which will be shared later. If you have specific requirements, please reach out to us prior to your presentation. We want to make it perfect event for you. Don’t worry if you forget something. We’re always here to help.
 
 
                 </p>
@@ -895,14 +1079,14 @@ continued support from EDII. </li>
               <div class="faq">
                 <h4 class="faq__title">Where do we sign up for the event?</h4>
                 <p class="faq__text " style="text-align: justify;">  It’s already begun! What are you waiting for?
-                  It’s already begun! What are you waiting for? You can <a href="https://forms.gle/7QUoEf87yCEzUU5QA" target="_blank" style="color:blue;text-decoration: underline">sign up</a> below by March 17, 2020 latest by 11.59.59. No registration fee is required.
+                  It’s already begun! What are you waiting for? You can <a href="https://forms.gle/7QUoEf87yCEzUU5QA" target="_blank" style="color:blue;text-decoration: underline">sign up</a> below by May 22, 2020 latest by 11.59.59. No registration fee is required.
                   </p>
               </div>
 
               <div class="faq">
                 <h4 class="faq__title">How much does it cost?</h4>
                 <p class="faq__text " style="text-align: justify;">
-                Applying is free. However, teams that are selected in the pre-screening will have to pay a fee of ₹2000/- to participate in the event.
+                Applying is free. However, teams that are selected in the pre-screening will have to pay a fee of ₹500/- to participate in the event.
                 </p>
               </div>
             </div>
