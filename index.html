@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>TNIGC</title>
   <meta charset="utf-8">
@@ -23,116 +24,117 @@
   <link rel="apple-touch-icon" href="img/logo.ico">
   <link rel="apple-touch-icon" sizes="72x72" href="img/logo.ico">
   <link rel="apple-touch-icon" sizes="114x114" href="img/logo.ico">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <style type="text/css">
-      /* @group Blink */
-      .blink {
-        -webkit-animation: blink .75s linear infinite;
-        -moz-animation: blink .75s linear infinite;
-        -ms-animation: blink .75s linear infinite;
-        -o-animation: blink .75s linear infinite;
-        animation: blink .75s linear infinite;
-        font-size: .8em;
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <style type="text/css">
+    /* @group Blink */
+    .blink {
+      -webkit-animation: blink .75s linear infinite;
+      -moz-animation: blink .75s linear infinite;
+      -ms-animation: blink .75s linear infinite;
+      -o-animation: blink .75s linear infinite;
+      animation: blink .75s linear infinite;
+      font-size: .8em;
+    }
+
+    @-webkit-keyframes blink {
+      0% {
+        opacity: 1;
       }
 
-      @-webkit-keyframes blink {
-        0% {
-          opacity: 1;
-        }
-
-        50% {
-          opacity: 1;
-        }
-
-        50.01% {
-          opacity: 0;
-        }
-
-        100% {
-          opacity: 0;
-        }
+      50% {
+        opacity: 1;
       }
 
-      @-moz-keyframes blink {
-        0% {
-          opacity: 1;
-        }
-
-        50% {
-          opacity: 1;
-        }
-
-        50.01% {
-          opacity: 0;
-        }
-
-        100% {
-          opacity: 0;
-        }
+      50.01% {
+        opacity: 0;
       }
 
-      @-ms-keyframes blink {
-        0% {
-          opacity: 1;
-        }
+      100% {
+        opacity: 0;
+      }
+    }
 
-        50% {
-          opacity: 1;
-        }
-
-        50.01% {
-          opacity: 0;
-        }
-
-        100% {
-          opacity: 0;
-        }
+    @-moz-keyframes blink {
+      0% {
+        opacity: 1;
       }
 
-      @-o-keyframes blink {
-        0% {
-          opacity: 1;
-        }
-
-        50% {
-          opacity: 1;
-        }
-
-        50.01% {
-          opacity: 0;
-        }
-
-        100% {
-          opacity: 0;
-        }
+      50% {
+        opacity: 1;
       }
 
-      @keyframes blink {
-        0% {
-          opacity: 1;
-        }
-
-        50% {
-          opacity: 1;
-        }
-
-        50.01% {
-          opacity: 0;
-        }
-
-        100% {
-          opacity: 0;
-        }
+      50.01% {
+        opacity: 0;
       }
 
-    </style>
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @-ms-keyframes blink {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      50.01% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @-o-keyframes blink {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      50.01% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      50.01% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
   <script>
-  $(document).ready(function(){
+    $(document).ready(function () {
       $("#notice").modal('show');
-  });
-  function notice(){
-    $("#notice").modal('show');
-  }
+    });
+
+    function notice() {
+      $("#notice").modal('show');
+    }
   </script>
 </head>
 
@@ -145,28 +147,29 @@
     </div>
   </div>
 
-  <div class="modal"  id="notice" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Event Update !&nbsp;</h5> <button class="btn btn-secondary blink">new</button>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body" style="text-align: center;">
-        <p>TNIGC 2020 is now live! Due to the ongoing COVID-19 crisis, the event has been made completely virtual. We are now
-          accepting applications.</p>
+  <div class="modal" id="notice" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Event Update !&nbsp;</h5> <button class="btn btn-secondary blink">new</button>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="text-align: center;">
+          <p>TNIGC 2020 is now live! Due to the ongoing COVID-19 crisis, the event has been made completely virtual. We
+            are now
+            accepting applications.</p>
           <a href="https://forms.gle/7QUoEf87yCEzUU5QA" class="btn nav__btn">
             <span id="navbtn" class="nav__btn-text">Register Now!</span>
           </a>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
   <main class="main-wrapper">
 
     <!-- Navigation -->
@@ -182,7 +185,8 @@
               </a>
 
               <!-- Mobile toggle -->
-              <button type="button" class="nav__icon-toggle" id="nav__icon-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+              <button type="button" class="nav__icon-toggle" id="nav__icon-toggle" data-toggle="collapse"
+                data-target="#navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="nav__icon-toggle-bar"></span>
                 <span class="nav__icon-toggle-bar"></span>
@@ -228,19 +232,24 @@
 
     <!-- Triangle Image -->
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-       viewBox="0 0 600 480" style="enable-background:new 0 0 600 480;" xml:space="preserve" class="triangle-img triangle-img--align-right">
+      viewBox="0 0 600 480" style="enable-background:new 0 0 600 480;" xml:space="preserve"
+      class="triangle-img triangle-img--align-right">
       <g>
-        <path class="st0" d="M232.16,108.54,76.5,357.6C43.2,410.88,81.5,480,144.34,480H455.66c62.83,0,101.14-69.12,67.84-122.4L367.84,108.54C336.51,58.41,263.49,58.41,232.16,108.54Z" fill="url(#img1)" />
-        <path class="st0" d="M232.16,108.54,76.5,357.6C43.2,410.88,81.5,480,144.34,480H455.66c62.83,0,101.14-69.12,67.84-122.4L367.84,108.54C336.51,58.41,263.49,58.41,232.16,108.54Z" fill="url(#triangle-gradient)" fill-opacity="0.7" />
+        <path class="st0"
+          d="M232.16,108.54,76.5,357.6C43.2,410.88,81.5,480,144.34,480H455.66c62.83,0,101.14-69.12,67.84-122.4L367.84,108.54C336.51,58.41,263.49,58.41,232.16,108.54Z"
+          fill="url(#img1)" />
+        <path class="st0"
+          d="M232.16,108.54,76.5,357.6C43.2,410.88,81.5,480,144.34,480H455.66c62.83,0,101.14-69.12,67.84-122.4L367.84,108.54C336.51,58.41,263.49,58.41,232.16,108.54Z"
+          fill="url(#triangle-gradient)" fill-opacity="0.7" />
       </g>
       <defs>
         <pattern id="img1" patternUnits="userSpaceOnUse" width="500" height="500">
           <image xlink:href="img/hero/hero.jpg" x="50" y="70" width="500" height="500"></image>
         </pattern>
 
-        <linearGradient id="triangle-gradient" y2="100%" x2="0" y1="50%" gradientUnits="userSpaceOnUse" >
-        <stop offset="0" stop-color="#4C86E7"/>
-        <stop offset="1" stop-color="#B939E5"/>
+        <linearGradient id="triangle-gradient" y2="100%" x2="0" y1="50%" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#4C86E7" />
+          <stop offset="1" stop-color="#B939E5" />
         </linearGradient>
       </defs>
     </svg>
@@ -266,7 +275,9 @@
             <div class="col-lg-10">
               <!-- Optin Form -->
               <div class="optin">
-                <h3 class="optin__title">TNIGC 2019-20 is a virtual initiative by Entrepreneurship Development & Innovation Institute - Tamil Nadu (EDII - TN), to support ideas of budding entrepreneurs in the state with<br>&nbsp</h3>
+                <h3 class="optin__title">TNIGC 2019-20 is a virtual initiative by Entrepreneurship Development &
+                  Innovation Institute - Tamil Nadu (EDII - TN), to support ideas of budding entrepreneurs in the state
+                  with<br>&nbsp</h3>
                 <!-- <ul>
                   <li>Grant money
 </li>
@@ -282,26 +293,38 @@
 
                   <div class="row">
                     <div class="col-lg-3">
-                      <div class="feature text-center" style="margin-bottom: 20px;padding-bottom: 20px;padding-left: 20px;padding-right: 20px;padding-top: 40px;">
-                        <svg class="feature__icon"><use xlink:href="img/icons/orion-svg-sprite.svg#currency-1"></use></svg>
+                      <div class="feature text-center"
+                        style="margin-bottom: 20px;padding-bottom: 20px;padding-left: 20px;padding-right: 20px;padding-top: 40px;">
+                        <svg class="feature__icon">
+                          <use xlink:href="img/icons/orion-svg-sprite.svg#currency-1"></use>
+                        </svg>
                         <h4 class="feature__title">Grant Money</h4>
                       </div>
                     </div>
                     <div class="col-lg-3">
-                      <div class="feature text-center" style="margin-bottom: 20px;padding-bottom: 20px;padding-left: 20px;padding-right: 20px;padding-top: 40px;">
-                        <svg class="feature__icon"><use xlink:href="img/icons/orion-svg-sprite.svg#handshake-1"></use></svg>
+                      <div class="feature text-center"
+                        style="margin-bottom: 20px;padding-bottom: 20px;padding-left: 20px;padding-right: 20px;padding-top: 40px;">
+                        <svg class="feature__icon">
+                          <use xlink:href="img/icons/orion-svg-sprite.svg#handshake-1"></use>
+                        </svg>
                         <h4 class="feature__title">Expert Mentorship</h4>
                       </div>
                     </div>
                     <div class="col-lg-3">
-                      <div class="feature text-center" style="margin-bottom: 20px;padding-bottom: 20px;padding-left: 20px;padding-right: 20px;padding-top: 40px;">
-                        <svg class="feature__icon"><use xlink:href="img/icons/orion-svg-sprite.svg#social-1"></use></svg>
+                      <div class="feature text-center"
+                        style="margin-bottom: 20px;padding-bottom: 20px;padding-left: 20px;padding-right: 20px;padding-top: 40px;">
+                        <svg class="feature__icon">
+                          <use xlink:href="img/icons/orion-svg-sprite.svg#social-1"></use>
+                        </svg>
                         <h4 class="feature__title">Exposure</h4>
                       </div>
                     </div>
                     <div class="col-lg-3">
-                      <div class="feature text-center" style="margin-bottom: 20px;padding-bottom: 20px;padding-left: 20px;padding-right: 20px;padding-top: 40px;">
-                        <svg class="feature__icon"><use xlink:href="img/icons/orion-svg-sprite.svg#software-service-1"></use></svg>
+                      <div class="feature text-center"
+                        style="margin-bottom: 20px;padding-bottom: 20px;padding-left: 20px;padding-right: 20px;padding-top: 40px;">
+                        <svg class="feature__icon">
+                          <use xlink:href="img/icons/orion-svg-sprite.svg#software-service-1"></use>
+                        </svg>
                         <h4 class="feature__title">Incubation Support</h4>
                       </div>
                     </div>
@@ -315,7 +338,8 @@
                   </div>
                 </div><br>&nbsp;
                 <form class="optin__form" action="https://forms.gle/7QUoEf87yCEzUU5QA">
-                  <button class="optin__btn btn btn--md btn--color btn--button" style="bottom:0px;position: absolute; left: 50%;transform: translate(-50%, -50%);">Register</button>
+                  <button class="optin__btn btn btn--md btn--color btn--button"
+                    style="bottom:0px;position: absolute; left: 50%;transform: translate(-50%, -50%);">Register</button>
                 </form>
               </div>
             </div>
@@ -341,21 +365,21 @@
                 <img src="img/chennai.png" >
                 <h1>Chennai</h1>
                 <!-- <a href="chennai.html" class="pricing__button btn btn--lg btn--color"><span>Know more</span></a> -->
-              <!-- </div>
+      <!-- </div>
             </div>
             <div class="col-lg-4">
               <div class="feature box-shadow hover-up hover-line">
                 <img src="img/madurai.png" >
                 <h1>Madurai</h1> -->
-                <!-- <a href="madurai.html" class="pricing__button btn btn--lg btn--color"><span>Know more</span></a> -->
-              <!-- </div>
+      <!-- <a href="madurai.html" class="pricing__button btn btn--lg btn--color"><span>Know more</span></a> -->
+      <!-- </div>
             </div>
             <div class="col-lg-4">
               <div class="feature box-shadow hover-up hover-line">
                 <img src="img/coimbatore.png" >
                 <h1>Coimbatore</h1> -->
-                <!-- <a href="coimbatore.html" class="pricing__button btn btn--lg btn--color"><span>Know more</span></a> -->
-              <!-- </div>
+      <!-- <a href="coimbatore.html" class="pricing__button btn btn--lg btn--color"><span>Know more</span></a> -->
+      <!-- </div>
             </div>
           </div>
         </div>
@@ -372,8 +396,14 @@
               <h2 class="promo-section__title promo-section__title--boxed" style="font-size:60px;">About</h2>
               <p class="promo-section__text lead " style="text-align: justify;">
 
-                Do you think out of the box? Do you dream about creating a better tomorrow through innovation? Are you itching to startup? Do you have any product or solution to take on COVID-19 crisis ? The Tamil Nadu Innovation Grand Challenge (TNIGC) is for you.<br><br>
-  The Tamil Nadu Innovation Grand Challenge (TNIGC), a virtual initiative by Entrepreneurship Development and Innovation Institute (EDII), aims to promote innovation and startup culture by providing financial grants to budding entrepreneurs. The event comprises a webinar series and bootcamp - to educate entrepreneurs - and a pitchfest session - to decide the winners of the grant. Ten winning teams from the program will be awarded with seed money of ₹5 lakh each to support their venture.
+                Do you think out of the box? Do you dream about creating a better tomorrow through innovation? Are you
+                itching to startup? Do you have any product or solution to take on COVID-19 crisis ? The Tamil Nadu
+                Innovation Grand Challenge (TNIGC) is for you.<br><br>
+                The Tamil Nadu Innovation Grand Challenge (TNIGC), a virtual initiative by Entrepreneurship Development
+                and Innovation Institute (EDII), aims to promote innovation and startup culture by providing financial
+                grants to budding entrepreneurs. The event comprises a webinar series and bootcamp - to educate
+                entrepreneurs - and a pitchfest session - to decide the winners of the grant. Ten winning teams from the
+                program will be awarded with seed money of ₹5 lakh each to support their venture.
 
               </p>
               <!-- <h2 class="section-title text-center">Target Sectors</h2>
@@ -426,9 +456,12 @@
           </div>
         </div>
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-           viewBox="0 0 600 480" style="enable-background:new 0 0 600 480;" xml:space="preserve" class="triangle-img triangle-img--align-left">
+          viewBox="0 0 600 480" style="enable-background:new 0 0 600 480;" xml:space="preserve"
+          class="triangle-img triangle-img--align-left">
           <g>
-            <path class="st0" d="M232.16,108.54,76.5,357.6C43.2,410.88,81.5,480,144.34,480H455.66c62.83,0,101.14-69.12,67.84-122.4L367.84,108.54C336.51,58.41,263.49,58.41,232.16,108.54Z" fill="url(#img2)" />
+            <path class="st0"
+              d="M232.16,108.54,76.5,357.6C43.2,410.88,81.5,480,144.34,480H455.66c62.83,0,101.14-69.12,67.84-122.4L367.84,108.54C336.51,58.41,263.49,58.41,232.16,108.54Z"
+              fill="url(#img2)" />
           </g>
           <defs>
             <pattern id="img2" patternUnits="userSpaceOnUse" width="600" height="600">
@@ -439,14 +472,14 @@
 
       </section> <!-- end promo section -->
       <section class="section-wrap pb-72" style="padding-top: 0px;">
-              <div class="container">
+        <div class="container">
 
-                <div class="title-row title-row--boxed text-center">
-                  <h2 class="section-title">Target Sectors</h2>
+          <div class="title-row title-row--boxed text-center">
+            <h2 class="section-title">Target Sectors</h2>
 
-                </div>
+          </div>
 
-                                <!-- <div class="row">
+          <!-- <div class="row">
                                   <div class="col-lg">
                                     <div class="feature text-center" style="padding-right: 10px;padding-left: 10px;">
                                       <svg class="feature__icon"><use xlink:href="img/icons/orion-sv-sprite.svg#social-1"></use></svg>
@@ -532,47 +565,61 @@
             </div>
             <div class="col-md-3">
               <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                 <td><h3>
-                   <ul style="list-style-type:none;">
-                   <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Agriculture</span></li>
-                   <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Manufacturing</span></li>
-                   <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Logistics</span></li>
-                   <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Education</span></li>
-                   <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Retail</span></li>
-                   <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
-                       class="benefits__item-title">&nbsp;&nbsp;&nbsp;COVID-19 &nbsp; <button
-                         class="btn btn-secondary blink">new</button></span></li>
-                 </ul></h3>
-               </td>
-             </table>
+                <td>
+                  <h3>
+                    <ul style="list-style-type:none;">
+                      <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
+                          class="benefits__item-title">&nbsp;&nbsp;&nbsp;Agriculture</span></li>
+                      <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
+                          class="benefits__item-title">&nbsp;&nbsp;&nbsp;Manufacturing</span></li>
+                      <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
+                          class="benefits__item-title">&nbsp;&nbsp;&nbsp;Logistics</span></li>
+                      <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
+                          class="benefits__item-title">&nbsp;&nbsp;&nbsp;Education</span></li>
+                      <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
+                          class="benefits__item-title">&nbsp;&nbsp;&nbsp;Retail</span></li>
+                      <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
+                          class="benefits__item-title">&nbsp;&nbsp;&nbsp;COVID-19 &nbsp; <button
+                            class="btn btn-secondary blink">new</button></span></li>
+                    </ul>
+                  </h3>
+                </td>
+              </table>
             </div>
             <style media="screen">
               @media (min-width: 992px) and (max-width: 1199px) {
-                .ts{
+                .ts {
                   padding-left: 10em;
                 }
               }
             </style>
             <div class="col-md-3 ts" id="benifit">
               <table>
-                <td><h3>
-                  <ul style="list-style-type:none;">
-                  <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Smart Cities</span></li>
-                  <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Health Care</span></li>
-                  <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Accesibility</span></li>
-                  <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Environment</span></li>
-                  <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span class="benefits__item-title">&nbsp;&nbsp;&nbsp;Sustainability</span></li>
-                  <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
-                      class="benefits__item-title">&nbsp;&nbsp;&nbsp;Post COVID-19 &nbsp; <button
-                        class="btn btn-secondary blink">new</button></span></li>
-                </ul></h3>
-              </td>
-             </table>
+                <td>
+                  <h3>
+                    <ul style="list-style-type:none;">
+                      <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
+                          class="benefits__item-title">&nbsp;&nbsp;&nbsp;Smart Cities</span></li>
+                      <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
+                          class="benefits__item-title">&nbsp;&nbsp;&nbsp;Health Care</span></li>
+                      <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
+                          class="benefits__item-title">&nbsp;&nbsp;&nbsp;Accesibility</span></li>
+                      <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
+                          class="benefits__item-title">&nbsp;&nbsp;&nbsp;Environment</span></li>
+                      <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
+                          class="benefits__item-title">&nbsp;&nbsp;&nbsp;Sustainability</span></li>
+                      <li class="benefits__item"><i class="fa fa-angle-double-right" style="color:#007bff;"></i><span
+                          class="benefits__item-title">&nbsp;&nbsp;&nbsp;Post COVID-19 &nbsp; <button
+                            class="btn btn-secondary blink">new</button></span></li>
+                    </ul>
+                  </h3>
+                </td>
+              </table>
             </div>
             <div class="col-md-3">
+            </div>
           </div>
-              </div>
-            </section>
+      </section>
 
       <!-- Page Title -->
       <section class="page-title text-center" style="padding-top: 0px;padding-bottom: 80px; background-color:#FFF;">
@@ -611,18 +658,22 @@
                       </li>
                       <li class="benefits__item">
                         <i class="ui-check benefits__item-icon"></i>
-                        <span class="benefits__item-title"> Startups registered in Tamilnadu or willing to register in Tamilnadu </span>
+                        <span class="benefits__item-title"> Startups registered in Tamilnadu or willing to register in
+                          Tamilnadu </span>
                       </li>
                       <li class="benefits__item">
                         <i class="ui-close benefits__item-icon" style="color:#FA6262;"></i>
-                        <span class="benefits__item-title"> Students are not permitted to participate in TNIGC. They can apply for grant under <a href="https://tnsi.in/"> Tamil Nadu Student Innovators programme</a> </span>
+                        <span class="benefits__item-title"> Students are not permitted to participate in TNIGC. They can
+                          apply for grant under <a href="https://tnsi.in/"> Tamil Nadu Student Innovators programme</a>
+                        </span>
                       </li>
                       <li class="benefits__item">
                         <i class="ui-close benefits__item-icon" style="color:#FA6262;"></i>
-                        <span class="benefits__item-title"> Startups registered in other states are not allowed to register for this grant </span>
+                        <span class="benefits__item-title"> Startups registered in other states are not allowed to
+                          register for this grant </span>
                       </li>
                     </ul>
-                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -674,14 +725,15 @@
               <div class="pricing box-shadow hover-up hover-line">
                 <div class="pricing__price-box" style="display: inline;">
                   <h4 class="pricing__title">Step 1&nbsp;<button class="btn btn-secondary blink">new</button></h3>
-                  <span class="pricing__price" style="font-size: 2.1em;">Registration open</span>
-                  <span class="pricing__term" style="font-size: 1.3em;"><i class="fas fa-calendar-day"></i> Till May 29, 2020</span>
+                    <span class="pricing__price" style="font-size: 2.1em;">Registration open</span>
+                    <span class="pricing__term" style="font-size: 1.3em;"><i class="fas fa-calendar-day"></i> Till May
+                      29, 2020</span>
                 </div>
                 <p class="pricing__text">
-                <i class="fas fa-map-marker-alt"></i> Online
+                  <i class="fas fa-map-marker-alt"></i> Online
                 </p>
-                <a href="https://forms.gle/7QUoEf87yCEzUU5QA" class="pricing__button btn btn--lg btn--color"
-                   ><span>Register</span></a>
+                <a href="https://forms.gle/7QUoEf87yCEzUU5QA"
+                  class="pricing__button btn btn--lg btn--color"><span>Register</span></a>
               </div>
             </div>
 
@@ -689,17 +741,19 @@
               <div class="pricing box-shadow hover-up hover-line">
                 <div class="pricing__price-box" style="display: inline;">
                   <h4 class="pricing__title">Step 2&nbsp;<button class="btn btn-secondary blink">new</button></h3>
-                  <span class="pricing__price" style="font-size: 2.1em;">Online Webinar</span>
-                  <span class="pricing__term" style="font-size: 1.3em;"><i class="fas fa-calendar-day"></i> June 1-4,2020</span>
+                    <span class="pricing__price" style="font-size: 2.1em;">Online Webinar</span>
+                    <span class="pricing__term" style="font-size: 1.3em;"><i class="fas fa-calendar-day"></i> June
+                      1-4,2020</span>
                 </div>
                 <p class="pricing__text">
-                <i class="fas fa-map-marker-alt"></i> Online
+                  <i class="fas fa-map-marker-alt"></i> Online
                 </p>
-                <a href="#webinar" class="pricing__button btn btn--lg btn--color" data-wow-delay=".8s"data-toggle="modal" data-target="#webinar"><span>Know more</span></a>
+                <a href="#webinar" class="pricing__button btn btn--lg btn--color" data-wow-delay=".8s"
+                  data-toggle="modal" data-target="#webinar"><span>Know more</span></a>
               </div>
             </div>
 
-<!-- Bootcamp modal -->
+            <!-- Bootcamp modal -->
             <div class="modal fade" id="webinar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
               aria-hidden="true">
               <div class="modal-dialog modal-lg" role="document">
@@ -721,11 +775,11 @@
                             chosen to attend a 4-day webinar series where the teams will be exposed to talks from
                             experts on generating business insights, creating breakthrough value propositions and
                             creating a solid go to market strategy.
- </li><br>
+                          </li><br>
                           <li><i class="ui-check benefits__item-icon"></i> Speakers for the webinars will be shared
                             later.</li><br>
                         </ol>
-                       
+
                       </div>
                     </div>
                   </div>
@@ -736,63 +790,91 @@
 
 
             <!-- Sprint modal -->
-            <div class="modal fade" id="sprint" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg " role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel"><center>Sprint</center></h5>
+            <div class="modal fade" id="sprint" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg " role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      <center>Sprint</center>
+                    </h5>
 
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            <br>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <br>
+                  </div>
+                  <div class="modal-body">
+
+                    <div class="tab-content">
+                      <div class="tab-pane active">
+                        <div class="row">
+                          <div class="col-sm-12" ;>
+                            <h6>Description<br></h6>
+                            <ol>
+                              <li><i class="ui-check benefits__item-icon"></i> Team of atleast two can register for the
+                                Sprint round.</li>
+                              <li><i class="ui-check benefits__item-icon"></i> The prerequisite here is that the team
+                                must have a prototype of their project.</li>
+                              <li><i class="ui-check benefits__item-icon"></i> Contestants will work on their ideas for
+                                48 hours.</li>
+                              <li><i class="ui-check benefits__item-icon"></i> Apart from the contest, in a unique
+                                experiment, teams are topped up with virtual money to invest in other teams</li>
+                              <li><i class="ui-check benefits__item-icon"></i> The venue for sprint will be announced
+                                shortly. Exact Venues and Dates will be announced later.</li>
+                              <li><i class="ui-check benefits__item-icon"></i> The difference between a sprint and a
+                                typical hackathon is that Sprint expects a working prototype ready at the get-go.We will
+                                provide the teams with the community people who will help in enhancing the prototype
+                                idea and to develop the prototype.</li>
+                              <li><i class="ui-check benefits__item-icon"></i> There will be a Jury Panel which will
+                                scrutinize the idea & prototype of each team and will finalise teams for Bootcamp</li>
+                              <li><i class="ui-check benefits__item-icon"></i> Exact venue will be announced shortly.
+                              </li>
+                              <li><i class="ui-check benefits__item-icon"></i> Sprint has various sessions including.
+                              </li>
+
+                              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ui-check benefits__item-icon"></i>
+                                Design sprint to enhance and validate the idea</li>
+                              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ui-check benefits__item-icon"></i>
+                                Growth time with mentors to help in fine-tuning ideas. </li>
+                              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ui-check benefits__item-icon"></i>
+                                Prototype sprint to improve the quality of the prototype through feedback mechanisms
+                              </li>
+                              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ui-check benefits__item-icon"></i> Final
+                                Pitching to select well-deserved teams for the Bootcamp</li>
+                            </ol>
+                            <h6><br>Rules<br></h6>
+                            <ol>
+                              <li><i class="ui-check benefits__item-icon"></i> The event is open to all categories.
+                                Ideas from any domain can register.</li>
+                              <li><i class="ui-check benefits__item-icon"></i> Hackathon will be held at Chennai. </li>
+                              <li><i class="ui-check benefits__item-icon"></i> The team should have a working prototype
+                                of their idea or Proof of concept.</li>
+                              <!-- <li><i class="ui-check benefits__item-icon"></i> Teams should have testimonials from at least two individuals from startup community/ Certificate of merit from any two recognised startup events.</li> -->
+                              <li><i class="ui-check benefits__item-icon"></i> If an incorporated startup wishes to
+                                participate, the date of registration should not be more than a year as of 1/12/2018.
+                              </li>
+                              <li><i class="ui-check benefits__item-icon"></i> Depending upon the predetermined criteria
+                                teams are selected after the pre-screening process.</li>
+                              <li><i class="ui-check benefits__item-icon"></i> To continue forward the team has to make
+                                a payment of ₹500/- through our online portal.</li>
+                              <li><i class="ui-check benefits__item-icon"></i> The seat of the teams in sprint will be
+                                confirmed on first paid first served basis.</li>
+                              <li><i class="ui-check benefits__item-icon"></i> Teams those tops the list in hackathon
+                                will be attending Bootcamp.</li>
+                            </ol>
+
+                            <form class="optin__form" action="https://forms.gle/7QUoEf87yCEzUU5QA">
+                              <button class="optin__btn btn btn--md btn--color btn--button"
+                                style="left: 40%;">Register</button>
+                            </form>
+                          </div>
                         </div>
-                        <div class="modal-body">
-
-                                    <div class="tab-content">
-                                         <div  class="tab-pane active">
-                                            <div class="row">
-                                                <div class="col-sm-12";>
-                                                  <h6>Description<br></h6>
-                                                <ol>
-                                                    <li><i class="ui-check benefits__item-icon"></i> Team of atleast two can register for the Sprint round.</li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> The prerequisite here is that the team must have a prototype of their project.</li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> Contestants will work on their ideas for 48 hours.</li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> Apart from the contest, in a unique experiment, teams are topped up with virtual money to invest in other teams</li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> The venue for sprint will be announced shortly. Exact Venues and Dates will be announced later.</li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> The difference between a sprint and a typical hackathon is that Sprint expects a working prototype ready at the get-go.We will provide the teams with the community people who will help in enhancing the prototype idea and to develop the prototype.</li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> There will be  a Jury Panel which will scrutinize the idea & prototype of each team and will finalise teams for Bootcamp</li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> Exact venue will be announced shortly.</li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> Sprint has various sessions including.</li>
-
-                                                    	<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ui-check benefits__item-icon"></i>  Design sprint to enhance and validate the idea</li>
-                                                    	<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ui-check benefits__item-icon"></i>  Growth time with mentors to help in fine-tuning ideas. </li>
-                                                    	<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ui-check benefits__item-icon"></i>  Prototype sprint to improve the quality of the prototype through feedback mechanisms</li>
-                                                    	<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="ui-check benefits__item-icon"></i>  Final Pitching to select well-deserved teams for the Bootcamp</li>
-                                                </ol>
-                                                <h6><br>Rules<br></h6>
-                                                <ol>
-                                                    <li><i class="ui-check benefits__item-icon"></i> The event is open to all categories. Ideas from any domain can register.</li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> Hackathon will be held at Chennai. </li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> The team should have a working prototype of their idea or Proof of concept.</li>
-                                                    <!-- <li><i class="ui-check benefits__item-icon"></i> Teams should have testimonials from at least two individuals from startup community/ Certificate of merit from any two recognised startup events.</li> -->
-                                                    <li><i class="ui-check benefits__item-icon"></i> If an incorporated startup wishes to participate, the date of registration should not be more than a year as of 1/12/2018.</li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> Depending upon the predetermined criteria teams are selected after the pre-screening process.</li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> To continue forward the team has to make a payment of ₹500/- through our online portal.</li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> The seat of the teams in sprint will be confirmed on first paid first served basis.</li>
-                                                    <li><i class="ui-check benefits__item-icon"></i> Teams those tops the list in hackathon will be attending Bootcamp.</li>
-                                                </ol>
-
-                                                <form class="optin__form" action="https://forms.gle/7QUoEf87yCEzUU5QA">
-                                                  <button class="optin__btn btn btn--md btn--color btn--button" style="left: 40%;">Register</button>
-                                                </form>
-                                         </div>
-                                         </div>
-                                         </div>
-                                    </div>
-                        </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
 
             <div class="col-lg-3">
@@ -800,58 +882,61 @@
                 <div class="pricing__price-box" style="display: inline;">
                   <h4 class="pricing__title">Step 3&nbsp;<button class="btn btn-secondary blink">new</button></h3>
                     <span class="pricing__price" style="font-size: 2.1em;">Bootcamp</span>
-                    <span class="pricing__term" style="font-size: 1.3em;"><i class="fas fa-calendar-day"></i> June 5-6,2020</span>
+                    <span class="pricing__term" style="font-size: 1.3em;"><i class="fas fa-calendar-day"></i> June
+                      5-6,2020</span>
                 </div>
                 <p class="pricing__text">
-                <i class="fas fa-map-marker-alt"></i> Online
+                  <i class="fas fa-map-marker-alt"></i> Online
                 </p>
-                <a href="#bootcamp" class="pricing__button btn btn--lg btn--color" data-wow-delay=".8s"data-toggle="modal" data-target="#bootcamp" ><span>Know more</span></a>
+                <a href="#bootcamp" class="pricing__button btn btn--lg btn--color" data-wow-delay=".8s"
+                  data-toggle="modal" data-target="#bootcamp"><span>Know more</span></a>
               </div>
             </div>
 
 
             <!-- Bootcamp modal -->
-            <div class="modal fade" id="bootcamp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Bootcamp</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                                     <div class="row">
-                                        <div class="col-sm-12">
-                                            <h6>
-The secret of getting ahead is getting started. Become the super team
-which can achieve the results they seek.</h6>
-                                            <ol>
-                                            	<li><i class="ui-check benefits__item-icon"></i> The 2-day Boot Camp
-                                            	  promises to be a constructive session of 1-1 sessions by the teams with
-                                            	  mentors. Teams will have the chance to crystallize their ideas and bring
-                                            	  out the best in themselves. </li><br>
-                                            	<li><i class="ui-check benefits__item-icon"></i> On the final day of the
-                                            	  Boot Camp, teams will create and submit their pitch decks with feedback
-                                            	  from mentors from relevant sectors which teams are from.</li><br>
-                                            	<!-- <li><i class="ui-check benefits__item-icon"></i> The top teams from applications will be chosen to attend the 2-day boot camp where she/he will
+            <div class="modal fade" id="bootcamp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Bootcamp</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h6>
+                          The secret of getting ahead is getting started. Become the super team
+                          which can achieve the results they seek.</h6>
+                        <ol>
+                          <li><i class="ui-check benefits__item-icon"></i> The 2-day Boot Camp
+                            promises to be a constructive session of 1-1 sessions by the teams with
+                            mentors. Teams will have the chance to crystallize their ideas and bring
+                            out the best in themselves. </li><br>
+                          <li><i class="ui-check benefits__item-icon"></i> On the final day of the
+                            Boot Camp, teams will create and submit their pitch decks with feedback
+                            from mentors from relevant sectors which teams are from.</li><br>
+                          <!-- <li><i class="ui-check benefits__item-icon"></i> The top teams from applications will be chosen to attend the 2-day boot camp where she/he will
 be exposed to talks from experts on generating business insights, creating breakthrough value
 proposition and creating a solid go to market strategy.</li><br> -->
-                                                <!-- <li><i class="ui-check benefits__item-icon"></i> Teams that outperform and top the list in the hackathon will be attending a bootcamp session at Chennai.</li> -->
-                                             <!-- <li><i class="ui-check benefits__item-icon"></i> The Bootcamp promises to be a constructive session of dynamic approaches. With the help of
+                          <!-- <li><i class="ui-check benefits__item-icon"></i> Teams that outperform and top the list in the hackathon will be attending a bootcamp session at Chennai.</li> -->
+                          <!-- <li><i class="ui-check benefits__item-icon"></i> The Bootcamp promises to be a constructive session of dynamic approaches. With the help of
 mentor expertise, teams will have the chance to crystallize their ideas and bring out the best in
 themselves.</li> -->
-                                            <!-- <br>  <li><i class="ui-check benefits__item-icon"></i> On the second day of the Bootcamp, teams will create and submit their pitch decks with
+                          <!-- <br>  <li><i class="ui-check benefits__item-icon"></i> On the second day of the Bootcamp, teams will create and submit their pitch decks with
 feedback from mentors from relevant sectors which teams are from.</li><br> -->
-                                            </ol>
-                                            <!-- <Br>Psst!<br>
+                        </ol>
+                        <!-- <Br>Psst!<br>
 
             We have certificates and prize distribution following the jury decision. Your efforts are addressed based on the creativity and execution of the team’s pitch. <br> -->
-                                        </div>
-                                    </div>
-                            </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
 
 
@@ -860,12 +945,14 @@ feedback from mentors from relevant sectors which teams are from.</li><br> -->
                 <div class="pricing__price-box" style="display: inline;">
                   <h4 class="pricing__title">Step 4&nbsp;<button class="btn btn-secondary blink">new</button></h3>
                     <span class="pricing__price" style="font-size: 2.1em;">Pitchfest</span>
-                    <span class="pricing__term" style="font-size: 1.3em;"><i class="fas fa-calendar-day"></i> June 7,2020</span>
+                    <span class="pricing__term" style="font-size: 1.3em;"><i class="fas fa-calendar-day"></i> June
+                      7,2020</span>
                 </div>
                 <p class="pricing__text">
                   <i class="fas fa-map-marker-alt"></i> Online
                 </p>
-                <a href="#pitchfest" class="pricing__button btn btn--lg btn--color" data-wow-delay=".8s"data-toggle="modal" data-target="#pitchfest"><span>Know more</span></a>
+                <a href="#pitchfest" class="pricing__button btn btn--lg btn--color" data-wow-delay=".8s"
+                  data-toggle="modal" data-target="#pitchfest"><span>Know more</span></a>
               </div>
             </div>
 
@@ -876,52 +963,61 @@ feedback from mentors from relevant sectors which teams are from.</li><br> -->
 
 
       <!-- Pitchfest modal -->
-      <div class="modal fade" id="pitchfest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                  <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">PitchFest</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                      </button>
-                  </div>
-                  <div class="modal-body">
-                      <div class="row">
-                          <div class="col-sm-12">
-                              <!-- <h6>Description<br></h6> -->
-                                <ol>
-                                  <!-- <li><i class="ui-check benefits__item-icon"></i> The teams which attend the Bootcamp will go on to pitch before a panel of renowned investors and government officials.</li> -->
-                                  <li><i class="ui-check benefits__item-icon"></i> The PitchFest is the final leg of the event where the teams shall present their startup idea before
-an esteemed jury of investors and entrepreneurs.</li>
-                                  <li><i class="ui-check benefits__item-icon"></i> The top 5 teams will be awarded a grant of INR 5 Lakhs each to take their startups forward with
-continued support from EDII. </li>
-                                </ol>
-                                <h6><br>Rules<br></h6>
-                                <ol>
-                                  <li><i class="ui-check benefits__item-icon"></i> A maximum of 4 minutes will be allotted for every team to pitch their ideas.</li>
-                                  <li><i class="ui-check benefits__item-icon"></i> The Q&A session shall last a span of 5-10 minutes.</li>
-                                  <li><i class="ui-check benefits__item-icon"></i> The teams will be judged based on a fixed criterion.</li>
-                                  <li><i class="ui-check benefits__item-icon"></i> Teams needs to be present for the complete session.</li>
-                                  <li><i class="ui-check benefits__item-icon"></i> Certificates and prizes will be provided based on the creativity and execution of the team’s pitch.</li>
-                                  <li><i class="ui-check benefits__item-icon"></i> The decision of the jury is final.</li>
-                                </ol>
-                         </div>
-                    </div>
-
-
-                  </div>
-
-
-
+      <div class="modal fade" id="pitchfest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">PitchFest</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-sm-12">
+                  <!-- <h6>Description<br></h6> -->
+                  <ol>
+                    <!-- <li><i class="ui-check benefits__item-icon"></i> The teams which attend the Bootcamp will go on to pitch before a panel of renowned investors and government officials.</li> -->
+                    <li><i class="ui-check benefits__item-icon"></i> The PitchFest is the final leg of the event where
+                      the teams shall present their startup idea before
+                      an esteemed jury of investors and entrepreneurs.</li>
+                    <li><i class="ui-check benefits__item-icon"></i> The top 5 teams will be awarded a grant of INR 5
+                      Lakhs each to take their startups forward with
+                      continued support from EDII. </li>
+                  </ol>
+                  <h6><br>Rules<br></h6>
+                  <ol>
+                    <li><i class="ui-check benefits__item-icon"></i> A maximum of 4 minutes will be allotted for every
+                      team to pitch their ideas.</li>
+                    <li><i class="ui-check benefits__item-icon"></i> The Q&A session shall last a span of 5-10 minutes.
+                    </li>
+                    <li><i class="ui-check benefits__item-icon"></i> The teams will be judged based on a fixed
+                      criterion.</li>
+                    <li><i class="ui-check benefits__item-icon"></i> Teams needs to be present for the complete session.
+                    </li>
+                    <li><i class="ui-check benefits__item-icon"></i> Certificates and prizes will be provided based on
+                      the creativity and execution of the team’s pitch.</li>
+                    <li><i class="ui-check benefits__item-icon"></i> The decision of the jury is final.</li>
+                  </ol>
+                </div>
               </div>
+
+
+            </div>
+
+
+
           </div>
+        </div>
       </div>
-<!-- Faq -->
+      <!-- Faq -->
 
 
 
       <!-- Partners -->
-      <section class="section-wrap section-wrap--pb-large bg-gradient" id="Community" style="background-image: url(img/partners/map.png);">
+      <section class="section-wrap section-wrap--pb-large bg-gradient" id="Community"
+        style="background-image: url(img/partners/map.png);">
         <div class="container">
           <div class="title-row title-row--boxed text-center">
             <h2 class="section-title" style="font-size:50px;">Ecosystem Partners</h2>
@@ -930,25 +1026,31 @@ continued support from EDII. </li>
           <div class="row justify-content-center text-center">
             <div class="col-lg-10">
               <div class="optin" style="background-color:#fff">
-              <div class="row pb-48" style="
+                <div class="row pb-48" style="
     padding-bottom: 20px;
 ">
-                <div class="col-md col-sm-6">
-                  <img src="img/partners/3.png" alt="">
-                </div>
-                <div class="col-md col-sm-6">
-                  <img src="img/partners/6.png" alt="">
-                </div>
-                <div class="col-md col-sm-6">
-                  <img src="img/partners/9.png" alt="">
-                </div>
-                <!-- <div class="col-md col-sm-6">
+                  <div class="col-md col-sm-6">
+                    <img src="img/partners/17.png" alt="">
+                  </div>
+                  <div class="col-md col-sm-6">
+                    <img src="img/partners/18.png" alt="">
+                  </div>
+                  <div class="col-md col-sm-6">
+                    <img src="img/partners/3.png" alt="">
+                  </div>
+                  <div class="col-md col-sm-6">
+                    <img src="img/partners/6.png" alt="">
+                  </div>
+                  <div class="col-md col-sm-6">
+                    <img src="img/partners/9.png" alt="">
+                  </div>
+                  <!-- <div class="col-md col-sm-6">
                     <img src="img/partners/2.png" alt="">
                 </div> -->
-                <div class="col-md col-sm-6">
-                  <img src="img/partners/1.png" alt="">
-                </div>
-                <!-- <div class="col-md col-sm-6">
+                  <div class="col-md col-sm-6">
+                    <img src="img/partners/1.png" alt="">
+                  </div>
+                  <!-- <div class="col-md col-sm-6">
                   <img src="img/partners/1.png" alt="">
                 </div>
                 <div class="col-md col-sm-6">
@@ -960,7 +1062,7 @@ continued support from EDII. </li>
                 <div class="col-md col-sm-6">
                   <img src="img/partners/9.png" alt="">
                 </div> -->
-              </div>
+                </div>
               </div>
             </div>
           </div>
@@ -973,45 +1075,37 @@ continued support from EDII. </li>
           <div class="row justify-content-center text-center">
             <div class="col-lg-10">
               <div class="optin" style="background-color:#fff">
-                          <div class="row pb-48" style="
+                <div class="row pb-48" style="
                 padding-bottom: 20px;
             ">
-                <div class="col-md col-sm-6">
-                  <img src="img/partners/10.png" alt="">
-                </div>
-                <div class="col-md col-sm-6">
-                  <img src="img/partners/11.png" alt="">
-                </div>
-                <div class="col-md col-sm-6">
-                  <img src="img/partners/12.png" alt="">
-                </div>
-                <!-- <div class="col-md col-sm-6">
+                  <div class="col-md col-sm-6">
+                    <img src="img/partners/10.png" alt="">
+                  </div>
+                  <div class="col-md col-sm-6">
+                    <img src="img/partners/11.png" alt="">
+                  </div>
+                  <div class="col-md col-sm-6">
+                    <img src="img/partners/12.png" alt="">
+                  </div>
+                  <!-- <div class="col-md col-sm-6">
                     <img src="img/partners/2.png" alt="">
                 </div> -->
-                <div class="col-md col-sm-6">
-                  <img src="img/partners/13.png" alt="">
+                  <div class="col-md col-sm-6">
+                    <img src="img/partners/13.png" alt="">
+                  </div>
                 </div>
-                <div class="col-md col-sm-6">
-                  <img src="img/partners/14.png" alt="">
-                </div>
-              </div>
-              <div class="row" style="
-                padding-bottom: 20px;
-            ">
-                <div class="col-md col-sm-6">
-                  <img src="img/partners/15.png" alt="">
-                </div>
-                <div class="col-md col-sm-6">
-                  <img src="img/partners/16.png" alt="">
-                </div>
-                <div class="col-md col-sm-6">
-                  <img src="img/partners/17.png" alt="">
-                </div>
-                <div class="col-md col-sm-6">
-                  <img src="img/partners/18.png" alt="">
+                <div class="row" style="padding-bottom: 20px;">
+                  <div class="col-md col-sm-6">
+                    <img src="img/partners/15.png" alt="">
+                  </div>
+                  <div class="col-md col-sm-6">
+                    <img src="img/partners/16.png" alt="">
+                  </div>
+                  <div class="col-md col-sm-6">
+                    <img src="img/partners/14.png" alt="">
+                  </div>
                 </div>
               </div>
-            </div>
             </div>
           </div>
         </div>
@@ -1046,18 +1140,20 @@ continued support from EDII. </li>
               <div class="faq">
                 <h4 class="faq__title">What is TNIGC?</h4>
                 <p class="faq__text " style="text-align: justify;">
-                    The Tamil Nadu Innovation Grand Challenge (TNIGC), a virtual initiative by Entrepreneurship
-                    Development and Innovation Institute (EDII), aims to promote innovation and startup culture by
-                    providing financial grants to budding entrepreneurs. On account of ongoing COVID-19 crisis the 2020
-                    edition will be virtual. The event comprises an online webinar series, a bootcamp and a pitchfest. Ten winning teams from the program will be awarded
-                    with seed money of ₹5 lakh each to support their venture.
+                  The Tamil Nadu Innovation Grand Challenge (TNIGC), a virtual initiative by Entrepreneurship
+                  Development and Innovation Institute (EDII), aims to promote innovation and startup culture by
+                  providing financial grants to budding entrepreneurs. On account of ongoing COVID-19 crisis the 2020
+                  edition will be virtual. The event comprises an online webinar series, a bootcamp and a pitchfest. Ten
+                  winning teams from the program will be awarded
+                  with seed money of ₹5 lakh each to support their venture.
                 </p>
               </div>
 
               <div class="faq">
                 <h4 class="faq__title">Who can attend?</h4>
                 <p class="faq__text " style="text-align: justify;">
-                  Indian citizens who have achieved 21 years of age and are raring to startup can apply for the program. The program looks to identify promising entrepreneurs with a prototype or proof of concept.
+                  Indian citizens who have achieved 21 years of age and are raring to startup can apply for the program.
+                  The program looks to identify promising entrepreneurs with a prototype or proof of concept.
 
                 </p>
               </div>
@@ -1065,7 +1161,10 @@ continued support from EDII. </li>
               <div class="faq">
                 <h4 class="faq__title">How can I apply?</h4>
                 <p class="faq__text " style="text-align: justify;">
-                    After filling this <a href="https://forms.gle/7QUoEf87yCEzUU5QA" target="_blank" style="color:blue;text-decoration: underline">registration form</a>, you will get a payment link after a pre-screening process. The process will be completed after you pay ₹500 through the link. Consider the confirmation mail as the entry ticket.
+                  After filling this <a href="https://forms.gle/7QUoEf87yCEzUU5QA" target="_blank"
+                    style="color:blue;text-decoration: underline">registration form</a>, you will get a payment link
+                  after a pre-screening process. The process will be completed after you pay ₹500 through the link.
+                  Consider the confirmation mail as the entry ticket.
                 </p>
               </div>
             </div>
@@ -1074,7 +1173,9 @@ continued support from EDII. </li>
               <div class="faq">
                 <h4 class="faq__title">What are the requirements?</h4>
                 <p class="faq__text " style="text-align: justify;">
-                 A good internet connection and a teleconferencing software which will be shared later. If you have specific requirements, please reach out to us prior to your presentation. We want to make it perfect event for you. Don’t worry if you forget something. We’re always here to help.
+                  A good internet connection and a teleconferencing software which will be shared later. If you have
+                  specific requirements, please reach out to us prior to your presentation. We want to make it perfect
+                  event for you. Don’t worry if you forget something. We’re always here to help.
 
 
                 </p>
@@ -1082,15 +1183,18 @@ continued support from EDII. </li>
 
               <div class="faq">
                 <h4 class="faq__title">Where do we sign up for the event?</h4>
-                <p class="faq__text " style="text-align: justify;">  It’s already begun! What are you waiting for?
-                  It’s already begun! What are you waiting for? You can <a href="https://forms.gle/7QUoEf87yCEzUU5QA" target="_blank" style="color:blue;text-decoration: underline">sign up</a> below by May 29, 2020 latest by 11.59.59. No registration fee is required.
-                  </p>
+                <p class="faq__text " style="text-align: justify;"> It’s already begun! What are you waiting for?
+                  It’s already begun! What are you waiting for? You can <a href="https://forms.gle/7QUoEf87yCEzUU5QA"
+                    target="_blank" style="color:blue;text-decoration: underline">sign up</a> below by May 29, 2020
+                  latest by 11.59.59. No registration fee is required.
+                </p>
               </div>
 
               <div class="faq">
                 <h4 class="faq__title">How much does it cost?</h4>
                 <p class="faq__text " style="text-align: justify;">
-                Applying is free. However, teams that are selected in the pre-screening will have to pay a fee of ₹500/- to participate in the event.
+                  Applying is free. However, teams that are selected in the pre-screening will have to pay a fee of
+                  ₹500/- to participate in the event.
                 </p>
               </div>
             </div>
@@ -1098,7 +1202,8 @@ continued support from EDII. </li>
           </div>
 
           <div class="text-center lead mt-48">
-            <span>Didn't find what you are looking for? Go ahead and write to <a href="mailto:hello@tnigc.com">hello@tnigc.com</a></span>
+            <span>Didn't find what you are looking for? Go ahead and write to <a
+                href="mailto:hello@tnigc.com">hello@tnigc.com</a></span>
           </div>
 
         </div>
@@ -1116,11 +1221,15 @@ continued support from EDII. </li>
                   <a href="index.html" class="logo-container flex-child">
                     <img class="logo" src="img/logo.png" srcset="img/logo.png 1x, img/logo@2x.png 2x" alt="logo">
                   </a>
-                  <p class="mt-24 mb-32">TNIGC is an initiative by Entrepreneurship Development and Innovation Institute (EDII).</p>
+                  <p class="mt-24 mb-32">TNIGC is an initiative by Entrepreneurship Development and Innovation Institute
+                    (EDII).</p>
                   <div class="socials">
-                    <a href="https://www.facebook.com/tnigc" class="social social-facebook" aria-label="facebook" title="facebook" target="_blank"><i class="ui-facebook"></i></a>
-                    <a href="https://twitter.com/tnigc" class="social social-twitter" aria-label="twitter" title="twitter" target="_blank"><i class="ui-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/tnigc/" class="social social-linkedin" aria-label="linkedin" title="linkedin" target="_blank"><i class="ui-linkedin"></i></a>
+                    <a href="https://www.facebook.com/tnigc" class="social social-facebook" aria-label="facebook"
+                      title="facebook" target="_blank"><i class="ui-facebook"></i></a>
+                    <a href="https://twitter.com/tnigc" class="social social-twitter" aria-label="twitter"
+                      title="twitter" target="_blank"><i class="ui-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/tnigc/" class="social social-linkedin" aria-label="linkedin"
+                      title="linkedin" target="_blank"><i class="ui-linkedin"></i></a>
                   </div>
                 </div>
               </div> <!-- end about us -->
@@ -1148,8 +1257,8 @@ continued support from EDII. </li>
                 <div class="widget widget-address">
                   <h5 class="widget-title">Contact Us</h5>
                   <ul>
-                      <span>Email: </span>
-                      <a href="mailto:hello@tnigc.com">hello@tnigc.com</a>
+                    <span>Email: </span>
+                    <a href="mailto:hello@tnigc.com">hello@tnigc.com</a>
                     </li>
                   </ul>
                 </div>
@@ -1190,7 +1299,10 @@ continued support from EDII. </li>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132868614-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-132868614-1');
@@ -1207,4 +1319,5 @@ continued support from EDII. </li>
   <script src="js/cookies.js"></script>
 
 </body>
+
 </html>
